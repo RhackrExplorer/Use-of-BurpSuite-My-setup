@@ -97,14 +97,14 @@ Note: Copy the license from loader to the burpsuite > manual activation > copy b
       C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
 
 
-<h1 align="center" >
-After all above setup done download letest burpsuite professional.jar file </h1> 
-<h2>
-> make new directory for burpsuitepro > copy loader.jar,burpsuite_pro_v<letest>.jar, burp.bat, burp_suite.ico and Burp-Suite-Pro.vbs in new file. and change some configurations like: </h2>
- <h3>
+<h2 align="center" >
+After all above setup done download letest burpsuite professional.jar file </h2> 
+<h3>
+> make new directory for burpsuitepro > copy loader.jar,burpsuite_pro_v<letest>.jar, burp.bat, burp_suite.ico and Burp-Suite-Pro.vbs in new file. and change some configurations like: </h3>
+ <h4>
  1. In burp.bat change:- -javaagent:"C:\Users\new\folder\Desktop\Burpsuite_pro-directory-name\loader.jar" -noverify -jar "C:\Users\new\folder\Desktop\Burpsuite_pro-directory-name\burpsuite_pro_v<letest>.jar"
  
-2. "C:\Users\new\folder\Desktop\Burpsuite_pro-directory-name\Burp.bat"
+2. In Burp-Suite-Pro.vbs "C:\Users\new\folder\Desktop\Burpsuite_pro-directory-name\Burp.bat"
 3. And after that setup new Burp-Suite-Pro.vbs icon (process follow as above mentioned).
 
-</h3>
+</h4>
